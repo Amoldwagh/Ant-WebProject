@@ -1,8 +1,8 @@
 pipeline
 {
   agent any
-  stages{
-stage
+  stages  {
+stage('deploy-code')
 {
 steps
   {
